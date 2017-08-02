@@ -174,9 +174,7 @@ export class AutoCompleteComponent {
    * hide item list
    */
   public hideItemList(): void {
-    setTimeout(function () {
-      this.showList = this.alwaysShowList;
-    }.bind(this), 100);
+    this.showList = this.alwaysShowList;
   }
 
   /**
